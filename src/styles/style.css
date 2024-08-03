@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("./nav.css");
+@import url("./homeSection.css");
+@import url("./icons.css");
+
+@font-face {
+  font-family: "Agustina";
+  src: url("../assets/fonts/agustina-webfont/Agustina.woff");
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body * {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+  margin-inline: 10px;
+}
