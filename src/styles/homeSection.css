@@ -1,0 +1,23 @@
+.greeting-text {
+  flex: 1;
+  font-size: 30px;
+}
+.greeting-text > h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.greeting-text > p {
+  color: #868e96;
+}
+.greeting-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex: 1;
+}
+.greeting-image img {
+  width: 100% !important;
+  height: auto; /* Keeps the image aspect ratio */
+  flex: 1;
+}

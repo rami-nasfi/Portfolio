@@ -1,0 +1,25 @@
+.header {
+  font-weight: 500;
+  margin-bottom: 120px;
+}
+.menu > * {
+  border-bottom: 3px transparent solid;
+  transition: all 0.4s;
+}
+.menu > *:not(.logo):hover {
+  border-bottom: 3px red solid;
+  transition: all 1s;
+}
+.menu > *.active {
+  border-bottom: 3px red solid;
+}
+.logo-name {
+  font-family: "Agustina", sans-serif !important;
+  font-size: 2rem;
+}
+.logo {
+  user-select: none;
+}
+.logo-name:hover {
+  color: red;
+}

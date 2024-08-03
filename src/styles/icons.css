@@ -1,0 +1,26 @@
+.icons {
+  border-radius: 2.6rem;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.4rem;
+  margin: 0 5px 10px;
+  position: relative;
+  text-align: center;
+  transition: 0.2s ease-in;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  background-color: cadetblue;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.instagram {
+  background-color: #0e76a8;
+}
+.github {
+  background-color: #333;
+}
