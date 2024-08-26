@@ -37,3 +37,8 @@
     display: none;
   }
 }
+@media (max-width: 75em) {
+  .logo-name {
+    font-size: 4vw;
+  }
+}
