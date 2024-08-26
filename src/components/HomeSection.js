@@ -1,40 +1,53 @@
 import React from "react";
 
 //icons
-import { FaFacebookF, FaGithub, FaInstagram } from "react-icons/fa6";
+import { FaFacebookF, FaGithub, FaLinkedin } from "react-icons/fa6";
+
+//import Lottie annimation
+import Lottie from "lottie-react";
+//annimation data
+import animationData from "../assets/hello.json";
 
 function HomeSection() {
   return (
-    <div>
-      <div>
-        <div className="greeting d-flex flex-row">
-          <div className="greeting-text">
-            <h1>Hi all, I'm Rami</h1>
-            <p>
-              A passionate Full Stack Software Developer 🚀 having an experience of building Web with JavaScript / Reactjs / Nodejs and some other
-              cool libraries and frameworks.
-            </p>
-            <div>
-              <a href="" className="icons github">
-                <FaGithub />
-              </a>
-              <a href="" className="icons instagram">
-                <FaInstagram />
-              </a>
-              <a href="" className="icons facebook">
-                <FaFacebookF />
-              </a>
-            </div>
+    <section className="greeting d-flex flex-row" id="home">
+      <div className="text">
+        <h1 className="hi">
+          Hi all, I'm Rami{" "}
+          <span class="wave-emoji">
+            <img
+              alt="👋"
+              draggable="false"
+              src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f44b.png"
+              style={{ height: "1em", width: "1em", margin: "0px 0.05em 0px 0.1em", verticalAlign: "-0.1em" }}
+            />
+          </span>
+        </h1>
+        <p>
+          A passionate Full Stack Software Developer 🚀 having an experience of building Web with JavaScript / Reactjs / Nodejs and some other cool
+          libraries and frameworks.
+        </p>
+        <div>
+          <a href="https://github.com/rami-nasfi/" className="icons github">
+            <FaGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/mohamed-rami-nasfi/" className="icons linkedin">
+            <FaLinkedin />
+          </a>
+          <a href="https://www.facebook.com/rami.nasfi" className="icons facebook">
+            <FaFacebookF />
+          </a>
+        </div>
 
-            <input className="btn btn-primary me-2" type="button" value="Contact me" />
-            <button className="btn btn-primary">Download resume</button>
-          </div>
-          <div className="greeting-image">
-            <img src="https://cdn.dribbble.com/users/68398/screenshots/5699907/2.gif" alt="" />
-          </div>
+        <div>
+          <input className="btn btn-primary me-2 ms-0" type="button" value="Contact me" />
+          <input className="btn btn-primary" type="button" value="Download resume" />
         </div>
       </div>
-    </div>
+      <div className="image">
+        <Lottie animationData={animationData} />
+      </div>
+    </section>
   );
 }
 

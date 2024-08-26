@@ -1,4 +1,5 @@
-.icons {
+.greeting .icons,
+.contact .icons {
   border-radius: 2.6rem;
   color: #ffffff;
   cursor: pointer;
@@ -15,12 +16,62 @@
   width: 2.6rem;
   background-color: cadetblue;
 }
-.facebook {
+.greeting .facebook,
+.contact .facebook {
   background-color: #3b5998;
 }
-.instagram {
-  background-color: #0e76a8;
+.greeting .linkedin,
+.contact .linkedin {
+  background-color: #0a66c2;
 }
-.github {
+.greeting .github,
+.contact .github {
   background-color: #333;
+}
+
+/* skills icon */
+.skills-icons {
+  display: grid;
+  grid-gap: 1rem 1rem;
+  gap: 1rem 1rem;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns, each taking up equal space */
+  justify-content: start;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+.skills .icons {
+  display: flex;
+  align-items: center;
+  font-size: 2.2rem;
+  line-height: 0%;
+  color: #868e96;
+  text-decoration: none;
+  flex-direction: column;
+  gap: 20px;
+}
+.skills .icons:hover {
+  color: var(--bs-blue);
+}
+.icon-span {
+  font-size: 1rem;
+  width: max-content;
+}
+.cercle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.JavaScript {
+  background-color: #f1e05a;
+}
+.CSS {
+  background-color: #563d7c;
+}
+.PHP {
+  background-color: #4f5d95;
+}
+.HTML {
+  background-color: #e34c26;
 }

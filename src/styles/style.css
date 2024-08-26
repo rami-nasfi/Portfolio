@@ -1,13 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("./nav.css");
-@import url("./homeSection.css");
-@import url("./icons.css");
-
-@font-face {
-  font-family: "Agustina";
-  src: url("../assets/fonts/agustina-webfont/Agustina.woff");
-  font-weight: normal !important;
-  font-style: normal !important;
+:root {
+  --fs-700: 2rem;
+  --fs-600: 1.5rem;
+  --fs-500: 1.25rem;
+  --fs-400: 1.1rem;
+  --fs-300: 1rem;
+  --gap-10: 10px;
+}
+@media (min-width: 50em) {
+  :root {
+    --fs-700: 4rem;
+    --fs-600: 3rem;
+    --fs-500: 2rem;
+    --fs-400: 1.5rem;
+    --fs-300: 1.05rem;
+  }
 }
 * {
   margin: 0;
@@ -17,5 +23,18 @@ body * {
   font-family: "Montserrat", sans-serif !important;
   font-optical-sizing: auto !important;
   font-style: normal !important;
-  margin-inline: 10px;
 }
+body {
+  margin-inline: 5%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Agustina";
+  src: url("../assets/fonts/agustina-webfont/Agustina.woff");
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+@import url("./nav.css");
+@import url("./icons.css");
+@import url("./section.css");
