@@ -40,8 +40,12 @@ function HomeSection() {
         </div>
 
         <div>
-          <input className="btn btn-primary me-2 ms-0" type="button" value="Contact me" />
-          <input className="btn btn-primary" type="button" value="Download resume" />
+          <a className="btn btn-primary me-2 ms-0" role="button" href="#contact">
+            Contact me
+          </a>
+          <a className="btn btn-primary" role="button" download="Resume.pdf" href="/CV ENG Mohamed Rami Nasfi.pdf">
+            Download resume
+          </a>
         </div>
       </div>
       <div className="image">
