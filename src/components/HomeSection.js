@@ -43,7 +43,7 @@ function HomeSection() {
           <a className="btn btn-primary me-2 ms-0" role="button" href="#contact">
             Contact me
           </a>
-          <a className="btn btn-primary" role="button" download="Resume.pdf" href="/CV ENG Mohamed Rami Nasfi.pdf">
+          <a className="btn btn-primary" role="button" download="Resume Mohamed Rami Nasfi.pdf" href="./CV ENG Mohamed Rami Nasfi.pdf">
             Download resume
           </a>
         </div>
