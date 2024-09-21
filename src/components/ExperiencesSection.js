@@ -22,13 +22,17 @@ function ExperiencesSection() {
             </div>
           </div>
           <div className="experiences-item">
-            <img
-              src="https://media.licdn.com/dms/image/v2/C4D0BAQEeaET6Ph2heQ/company-logo_200_200/company-logo_200_200/0/1668201942683?e=1732752000&v=beta&t=Y4787GIE6EgoMJx0KFGSJzRme0_27JS1vTn2_FEU9Sg"
-              alt=""
-            />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbIIk-lToXfrj2DruNyBNYzpgXD4wI2XnEJQ&s" alt="" />
             <div>
-              <h4>Horizon Academy</h4>
-              <p>Java and android Trainer</p>
+              <h4>Rosace</h4>
+              <p>Store Manager – Clothing Retail</p>
+            </div>
+          </div>
+          <div className="experiences-item">
+            <img src="https://zenprospect-production.s3.amazonaws.com/uploads/pictures/65d85c8e86935900019c989e/picture" alt="" />
+            <div>
+              <h4>ZEN</h4>
+              <p>Store Assistant Manager – Clothing Retail</p>
             </div>
           </div>
         </div>
