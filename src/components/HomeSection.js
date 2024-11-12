@@ -24,8 +24,9 @@ function HomeSection() {
           </span>
         </h1>
         <p>
-          A passionate Full Stack Software Developer 🚀 having an experience of building Web with JavaScript / Reactjs / Nodejs and some other cool
-          libraries and frameworks.
+          A passionate Full Stack Developer 🚀 with experience in JavaScript, React.js, Node.js, and other frameworks. Self-studied in Java, Spring
+          Boot, Angular, and with a solid foundation in C++ basics. Always eager to learn and build efficient, scalable, and high-quality
+          applications.
         </p>
         <div>
           <a href="https://github.com/rami-nasfi/" className="icons github">

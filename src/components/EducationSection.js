@@ -20,12 +20,12 @@ function EducationSection() {
         <div className="education-item">
           <div>
             <div>
-              <img src="https://www.ecoles.com.tn/sites/default/files/styles/large/public/universite/logo/logo_essat_gabes.jpg" alt="" />
+              <img src="https://isetsf.rnu.tn/useruploads/files/logo_face_book.jpg" alt="" />
             </div>
             <div>
-              <h4 className="speciality">First-Year Common Core in Computer Engineering</h4>
-              <h5 className="university">Higher School of Applied Sciences and Private Technology of Gabes</h5>
-              <h5 className="period">September 2016 - juin 2017</h5>
+              <h4 className="speciality">Master's Degree in Information Systems and Network Development (Remote)</h4>
+              <h5 className="university">Higher Institute of Technological Studies of Sfax (ISET Sfax)</h5>
+              <h5 className="period">September 2024 - Present</h5>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ function EducationSection() {
             <div>
               <h4 className="speciality">Bachelor's Degree in Applied Computer Science for Management</h4>
               <h5 className="university">Higher Institute of Management of Gabes</h5>
-              <h5 className="period">September 2010 - juin 2015</h5>
+              <h5 className="period">September 2010 - June 2015</h5>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ function EducationSection() {
             <div>
               <h4 className="speciality">High School Diploma, Technical Sciences Section, Main Session</h4>
               <h5 className="university">Chebbi Secondary School</h5>
-              <h5 className="period">September 2006 - juin 2010</h5>
+              <h5 className="period">September 2006 - June 2010</h5>
             </div>
           </div>
         </div>

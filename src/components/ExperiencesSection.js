@@ -1,8 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 
-//icons
-import { FaFacebookF, FaGithub, FaInstagram } from "react-icons/fa6";
 
 function ExperiencesSection() {
   const { ref, inView } = useInView({
@@ -14,6 +12,13 @@ function ExperiencesSection() {
       <div className="text">
         <h1 className="section-title">Work experiences</h1>
         <div className="experiences-items">
+          <div className="experiences-item">
+            <img src="https://hiveage.com/wp-content/uploads/2015/06/balancing-freelancing-and-job.jpg" alt="" />
+            <div>
+              <h4>Mohamed Rami Nasfi</h4>
+              <p>Freelance Developer</p>
+            </div>
+          </div>
           <div className="experiences-item">
             <img src="https://pbs.twimg.com/profile_images/1204480024411328512/2KNZXkur_400x400.jpg" alt="" />
             <div>
